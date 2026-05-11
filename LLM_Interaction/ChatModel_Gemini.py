@@ -8,3 +8,4 @@ prompt="whtats is my name"
 result = model.invoke(prompt)
 
 print(result.content)
+

@@ -18,4 +18,5 @@ prompt = chat_template.invoke({
     "query":"where is my refund?"
 })
 
+
 print(prompt)

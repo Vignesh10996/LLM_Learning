@@ -19,6 +19,7 @@ prompt3 = PromptTemplate(template="merge the provided notes and quiz into a sing
 #String Output Parser
 parser = StrOutputParser()
 
+
 Runnabl_Chain = RunnableParallel(
     {
     "notes": prompt1 | model | parser,
